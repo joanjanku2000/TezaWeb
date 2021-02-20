@@ -1,0 +1,2 @@
+[2021-02-19 02:49:16.113] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/opt/lampp/htdocs/teze_2014/~/root/User/snippets'
+[2021-02-19 02:49:55.992] [sharedprocess] [info] Starting to clean up unused language packs.

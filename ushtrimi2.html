@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+   <body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="2"><img src = "camel.png" widh = "80px" height="80px" ></th>
+                <th colspan = "4" style="font-size: large;"> Camelid Comparison</th>
+            </tr>
+            <tr>
+               
+                <th>
+                    # of heaps
+                </th>
+                <th>
+                    Ingredient Region
+                </th>
+                <th>
+                    Sinonim
+                </th>
+                <th>
+                    Prediction word
+                </th>
+            </tr>
+            <tr>
+                <td>Camel (dicka tjtr)</td>
+                <td>2</td>
+                <td>Africa Asia</td>
+                <td rowspan = "2">LLama</td>
+                <td rowspan = "2">LLama</td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">Llama</td>
+                <td>1</td>
+                <td>Africa Asia</td>
+            </tr>
+        </thead>
+    </table>
+    <p><strong>Choose which animal you would like to learn next week ?</strong></p>
+
+    <form action="proceso.php">
+        <label>
+            <input type =  "radio" name="animal" value="Elephant">
+            Elephant
+        </label>
+        <label>
+            <input type =  "radio" name="animal" value="Crocodile">
+            Crocodile
+        </label>
+        <label>
+            <input type =  "radio" name="animal" value = "Hippopotamus">
+            Hippopotamus
+        </label>
+        <label>
+            <input type =  "radio" name="animal" value="Camelid">
+            Camelid
+        </label>
+        <br>
+        <input type="submit" value="submit">
+      
+    </form>
+   </body>
+</html>

@@ -1,0 +1,5 @@
+Metodat get dhe post kane te ngjashem faktin qe perdoren per te derguar informacion
+nga nje forme ne html. Metoda get zakonisht perdoret per te derguar pak informacion
+dhe kjo e ben edhe me te shpejte. Informacioni i bashkengjitet url-se ne formatin
+www.url.com?name=2 psh.
+Nderkohe metoda post ka karakteristike qe dergon shume informacion por jo nepermjet url-se.
