@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="teza2019.css">
+        <script type="text/javascript" src="Teza2019.js" ></script>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <th>Mendimi per</th>
+                <th>Pozitiv</th>
+                <th>Negativ</th>
+                <th>Neutral</th>
+                <th>Komente</th>
+            </thead>
+            <tbody>
+               
+                <td>Ligjin e arsmit te larte</td>
+                <td><input type="radio" name="ligji" value="+" onchange="makeGreen('ligji')"></td>
+                <td><input type="radio" name="ligji" value="-" onchange="makeRed('ligji')"></td>
+                <td><input type="radio" name="ligji" value="n" onchange="makeBlue('ligji')"></td>
+                <td><input type="text" name="ligji" id="ligji" readonly></td>
+               </tr>
+               <tr>
+                <td>Stafi akademik</td>
+                <td><input type="radio" name="Stafi" value="+" onchange="makeGreen('Stafi')"></td>
+                <td><input type="radio" name="Stafi" value="-" onchange="makeRed('Stafi')"></td>
+                <td><input type="radio" name="Stafi" value="n" onchange="makeBlue('Stafi')"></td>
+                <td><input type="text" name="Stafi" id="Stafi" readonly></td>
+               </tr>
+               <tr>
+                <td>Programet e studimit</td>
+                <td><input type="radio" name="Programet" value="+" onchange="makeGreen('Programet')"></td>
+                <td><input type="radio" name="Programet" value="-" onchange="makeRed('Programet')"></td>
+                <td><input type="radio" name="Programet" value="n" onchange="makeBlue('Programet')" ></td>
+                <td><input type="text" name="Programet" id="Programet" readonly></td>
+               </tr>
+               <tr>
+                <td>Kerkimi shkencor</td>
+                <td><input type="radio" name="Kerkimi" value="+" onchange="makeGreen('Kerkimi')"></td>
+                <td><input type="radio" name="Kerkimi" value="-" onchange="makeRed('Kerkimi')"></td>
+                <td><input type="radio" name="Kerkimi" value="n" onchange="makeBlue('Kerkimi')"></td>
+                <td><input type="text" name="Kerkimi" id="Kerkimi" readonly></td>
+               </tr>
+            </tbody>
+        </table>
+
+        <table id="tabela" border="1">
+            <tr>
+                <td>rreshti 1 qeliza 1</td>
+                <td>rreshti 1 qeliza 2</td>
+            </tr>
+            <tr>
+                <td>rreshti 2 qeliza 1</td>
+                <td>rreshti 2 qeliza 2</td>
+            </tr>
+           
+
+        </table>
+        <br>
+        <input type="button" value="Shto Rresht" onclick="shtoRresht()">
+    </body>
+</html>

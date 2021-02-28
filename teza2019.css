@@ -1,0 +1,16 @@
+#ligji{
+    background-color: aqua;
+}
+#Stafi{
+    background-color: aqua;
+}
+#Programet {
+    background-color: aqua;
+}
+#Kerkimi{
+    background-color: aqua;
+}
+
+tr,td,th{
+    border: 1px solid gray;
+}
