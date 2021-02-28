@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script type="text/javascript" src = "Seminar6.js" ></script>
+    </head>
+    <body>
+        <div id="calculator">
+            <input type="text" id="Nr1" placeholder="Numri i pare">
+            
+            <input type="text" id="Nr2" placeholder="Numri i dyte">
+            
+            <select id="veprimi">
+                <option value="+">Mbledhje</option>
+                <option value="-">Zbritje</option>
+                <option value="*">Shumezim</option>
+                <option value="/">Pjesetim</option>
+            </select>
+            
+            <input type="text" disabled id="result">
+            <button onclick="calculate()" >Kryej veprimin</button>
+        </div>
+        <h2>Ushtrimi 4</h2>
+        <button onclick="readAndPrint()">Ushtrimi 4</button>
+        <p id="num"></p>
+        <h2>Ushtrimi 5</h2>
+        <button onclick="zarat()">Ushtrimi 6</button>
+        <table id="tabelaZarave">
+            <thead>
+                <tr id="tableHead">
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="tableBody">
+
+                </tr>
+            </tbody>
+        </table>
+        <h2>Ushtrimi 7</h2>
+        <button onclick="dataSot()">SOT</button>
+        <button onclick="dataDje()">DJE</button>
+        <button onclick="data10VitePara()">10 vite para</button>
+        <button onclick="dataPara1Jave()">1 jave para</button>
+
+        <h2>Ushtrimi 13</h2>
+        <button onclick="derive()">FJALA</button>
+        <div id="elementi"></div>
+
+        <div id="ushtrimi11">
+            <h2>Ushtrimi 11</h2>
+            <textarea id="teksti" rows='9'cols='36'>
+
+            </textarea>
+            <button onclick="shfaqi()">Shfaqi</button>
+            <table border = '1'>
+                <thead>
+                    <tr id="row">
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="rowBody">
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
