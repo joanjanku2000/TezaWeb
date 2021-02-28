@@ -1,0 +1,32 @@
+/* ushtrimi 1 */
+.f {
+    font-size: 1.5em;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+/*ushtrimi 2 */
+body{
+    background-image: url(img.jpg);
+    background-position:bottom right;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+}
+
+/* ushtrimi 3 */
+
+h1 , h2 {
+    padding : 0.5ems;
+    border-style: dashed;
+    margin : 0.5ems;
+}
+
+/* ushtrimi 4 */
+.green-Move {
+    color: green;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+
+
